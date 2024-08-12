@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './trip-card.component.html',
-  styleUrl: './trip-card.component.css'
+  styleUrls: ['./trip-card.component.css']
 })
 export class TripCardComponent implements OnInit {
   
